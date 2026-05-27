@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  background: #f9fafc;
+  color: #333;
+}
+
+/* HEADER */
+header{
+  background:linear-gradient(135deg,#E6097B,#EB6FAF);
+  background-image: url(images\ \(1\).jpg);
+  background-size: cover;
+  margin: 0 15px;
+  color: rgb(246, 248, 242);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1{
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+header p{
+  font-size: 18px;
+}
+
+/* NAVBAR */
+nav{
+  background: rgb(253, 252, 252);
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a{
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover{
+  color: #dd1088;
+}
+
+/* CONTAINER */
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+/* ABOUT */
+.about{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about h2{
+  color: #1f1d1e;
+  margin-bottom: 15px;
+}
+
+/* UPLOAD */
+.upload-section{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+input[type="file"]{
+  margin-top: 15px;
+}
+
+/* GALLERY */
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.card{
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+}
+
+.card img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.text{
+  padding: 15px;
+}
+
+.text h3{
+  color: #1f1d1e;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer{
+  background: #2b2929;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
